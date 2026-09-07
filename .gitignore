@@ -1,0 +1,39 @@
+# Documentation slides (PDFs)
+docs/*.pdf
+docs/*:Zone.Identifier
+*.Zone.Identifier
+*:Zone.Identifier
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / Editor configuration & OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node.js & Next.js frontend
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+build/
+*.tsbuildinfo
+
