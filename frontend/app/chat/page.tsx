@@ -465,10 +465,6 @@ export default function ChatPage() {
                         </button>
                       )}
                     </div>
-                    <div className="flex items-center gap-2 text-xs text-slate-500">
-                      <span className="w-2 h-2 rounded-full bg-neutral-500 inline-block animate-ping" />
-                      <span>Bedrock Generative AI • Sesi 10 Conversational Memory</span>
-                    </div>
                   </div>
                 </div>
 
