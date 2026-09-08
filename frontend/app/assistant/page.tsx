@@ -15,7 +15,6 @@ import {
   KnowledgeDocumentInfo,
 } from "@/types";
 import {
-  Sparkles,
   BookOpen,
   Send,
   HelpCircle,
@@ -96,10 +95,6 @@ export default function AssistantPage() {
         <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           {/* Header Banner */}
           <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-neutral-100/80 text-neutral-800 border border-neutral-200 mb-4 shadow-sm">
-              <Sparkles className="w-3.5 h-3.5 text-neutral-600" />
-              <span>Session 09 · RAG with Amazon Bedrock Knowledge Base</span>
-            </div>
             <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
               kelana-ai <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-600 to-neutral-500">Travel Assistant</span>
             </h1>
